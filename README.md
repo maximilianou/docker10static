@@ -1,4 +1,4 @@
-``
+```
 on@educacion:~/src/docker10static/docker10static$ docker build -t nginx/dev_static .
 Sending build context to Docker daemon  33.79kB
 Step 1/4 : FROM nginx:stable AS dev_static
@@ -23,4 +23,4 @@ educacion@educacion:~/src/docker10static/docker10static$ hg add .
 educacion@educacion:~/src/docker10static/docker10static$ hg commit -u maximilianou@gmail.com -m 'fixing Dockerfile'
 educacion@educacion:~/src/docker10static/docker10static$ hg push
 
-``
+```
